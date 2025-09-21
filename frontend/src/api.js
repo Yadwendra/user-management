@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const BASE = import.meta.env.VITE_API_BASE || 'https://user-management-y2ov.onrender.com';
 
 export default {
   getUsers: (params) => axios.get(`${BASE}/api/users`, { params }),
